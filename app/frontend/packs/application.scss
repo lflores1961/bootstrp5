@@ -1,0 +1,66 @@
+
+
+// Import Bootstrap v5  
+@import "~bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: 'collegecollage';
+  src: url('../fonts/collegecollage.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'collegeb' ;
+  src: url('../fonts/collegeb.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.cabeza {
+  background-color: #cc5500;
+  display: grid;
+  grid-template-columns: 200px 3fr;
+  grid-gap: 0px;
+  max-height: 100px;
+}
+
+.logo-cuernos {
+  font-family: 'collegecollage';
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  h1 {
+    font-size: 90px;
+    margin-top: -10px;
+    padding: 5px;
+  }
+}
+
+.cuernos {
+  font-family: 'collegeb', bold;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  float: right;
+  h1 {
+    padding: 6px;
+    margin: 0%;
+    margin-top: 0px;
+    font-size: 45px;
+    transform:scale(2,1);
+    text-align: justify;
+    -webkit-transform:scale(2,1);
+    display:inline-block; 
+  }
+  h4 {
+    padding: 2px;
+    margin: 0%;
+    font-size: 18px;
+    font-stretch: ultra-condensed;
+  }
+}
+
+.navLonghorn {
+  background-color: #cc5500;
+}
